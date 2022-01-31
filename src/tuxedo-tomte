@@ -259,7 +259,7 @@ my %tuxedo_repos = (
 			content => ['deb https://graphics.tuxedocomputers.com/ubuntu focal main'],
 		},
 		name => 'focal',
-	},
+	}
 
 );
 
@@ -317,6 +317,8 @@ my %tuxedo_mirrors = (
 			content => ['deb https://mirrors.tuxedocomputers.com/ubuntu/mirror/archive.ubuntu.com/ubuntu focal main restricted universe multiverse',
                         'deb https://mirrors.tuxedocomputers.com/ubuntu/mirror/security.ubuntu.com/ubuntu focal-security main restricted universe multiverse',
                         'deb https://mirrors.tuxedocomputers.com/ubuntu/mirror/archive.ubuntu.com/ubuntu focal-updates main restricted universe multiverse'],
+		},
+		name => 'focal',
 	}
 
 );
